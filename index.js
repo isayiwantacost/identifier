@@ -1,8 +1,8 @@
 const ln1 = require('./package-lock.json')
 const ln2 = require('./package.json')
-const lnlist = [...new Set(ln1, ln2)];
+const ln3 = require('./schema.json')
+const lnlist = [...new Set(ln1, ln2, ln3)];
 print("lnlist")
-
 const langNames = {
     h5: 'html',
     ts: 'typescript',
