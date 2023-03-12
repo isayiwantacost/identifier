@@ -1,13 +1,6 @@
-require = define([
-    'require',
-    'dependency'
-], function(require, factory) {
-    'use strict';
-    
-});
-const ln1 = require('./package-lock.json')
-const ln2 = require('./package.json')
-const ln3 = require('./schema.json')
+const ln1 = ('./package-lock.json')
+const ln2 = ('./package.json')
+const ln3 = ('./schema.json')
 const lnlist = [...new Set(ln1, ln2, ln3)];
 print("lnlist")
 const langNames = {
