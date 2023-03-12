@@ -10,4 +10,5 @@ So what this does is basically identify coding languages limited to this:
 <li>CSS</li>
 <li>Javascript</li>
 <br>
+  <summary> It runs entirely on JSON/JS and is just for fun. </summary>
 </center>
