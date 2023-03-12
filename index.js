@@ -1,7 +1,8 @@
 const ln1 = ('./package-lock.json')
 const ln2 = ('./package.json')
 const ln3 = ('./schema.json')
-const lnlist = [...new Set(ln1, ln2, ln3)];
+const ln4 = ('./index.yml')
+const lnlist = [...new Set(ln1, ln2, ln3, ln4)];
 print("lnlist")
 const langNames = {
     h5: 'html',
