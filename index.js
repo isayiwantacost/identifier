@@ -1,3 +1,10 @@
+require = define([
+    'require',
+    'dependency'
+], function(require, factory) {
+    'use strict';
+    
+});
 const ln1 = require('./package-lock.json')
 const ln2 = require('./package.json')
 const ln3 = require('./schema.json')
