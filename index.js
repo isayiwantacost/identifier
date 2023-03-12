@@ -8,7 +8,11 @@ const langNames = {
     ts: 'typescript',
     l: 'lua',
     c: 'css',
-    js: 'javascript'
+    js: 'javascript',
+    a: 'arduino',
+    cc: 'C',
+    jsn: 'JSON',
+    v: 'VisualBasic'
 }
 
 function IdentifyLangs(langNames, h5) {
@@ -18,7 +22,11 @@ function IdentifyLangs(langNames, h5) {
     const LangC = langNames.css(c[i])
     const LangJ = langNames.javascript(js[i])
     const LangA = langNames.arduino(a[i])
-    const LangALL = "html, typescript, lua, css, javascript, arduino"
+    const LangB = langNames.batch(b[i])
+    const LangCC = langNames.C(CC[i])
+    const LangJSN = langNames.json(JSN[i])
+    const V = langNames.VisualBasic(V[i])
+    const LangALL = "html, typescript, lua, css, javascript, arduino, batch, C, JSON, VisualBasic"
 }
 
 function FindLang(langNames, IdentifyLangs) {
