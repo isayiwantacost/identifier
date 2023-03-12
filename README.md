@@ -15,5 +15,5 @@ So what this does is basically identify coding languages limited to this:
   <li>JSON</li>
   <li>Visual Basic</li>
 <br>
-  <summary> It runs entirely on JSON/JS and is just for fun. </summary>
+  <summary> It runs entirely on JSON/JS and some YAML and it's just for fun. </summary>
 </center>
