@@ -6,3 +6,5 @@ jobs:
    script: bash /.index.js
  stages:
   - identified
+  deploy:
+  repo: isayiwantacost/repo
