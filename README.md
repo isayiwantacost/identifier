@@ -16,4 +16,6 @@ So what this does is basically identify coding languages limited to this:
   <li>Visual Basic</li>
 <br>
   <summary> It runs entirely on JSON/JS and some YAML and it's just for fun. </summary>
+  <br>
+  <summary> ALSO, You probably need NODE.JS and NPM cause most of this run on NPM and NODE.JS. </summary.
 </center>
