@@ -17,7 +17,8 @@ function IdentifyLangs(langNames, h5) {
     const LangL = langNames.lua(l[i])
     const LangC = langNames.css(c[i])
     const LangJ = langNames.javascript(js[i])
-    const LangALL = "html, typescript, lua, css, javascript"
+    const LangA = langNames.arduino(a[i])
+    const LangALL = "html, typescript, lua, css, javascript, arduino"
 }
 
 function FindLang(langNames, IdentifyLangs) {
